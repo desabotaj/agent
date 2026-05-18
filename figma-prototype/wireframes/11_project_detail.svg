@@ -1,0 +1,110 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+  text { font-family: Inter, Arial, Helvetica, sans-serif; }
+</style>
+<rect width="1440" height="900" fill="#FFFFFF"/>
+<rect x="0" y="0" width="260" height="900" fill="#F5F5F5" stroke="#CCCCCC"/>
+<!-- Logo -->
+<rect x="20" y="16" width="32" height="32" rx="6" fill="#666666" stroke="#CCCCCC"/>
+<text x="62" y="38" font-size="18" font-weight="bold" fill="#333333">TimeTracker</text>
+<line x1="0" y1="64" x2="260" y2="64" stroke="#CCCCCC"/>
+
+<rect x="12" y="80" width="236" height="40" rx="8" fill="transparent"/>
+<rect x="24" y="90" width="20" height="20" rx="4" fill="#E0E0E0" stroke="#CCCCCC"/>
+<text x="52" y="106" font-size="14" font-weight="normal" fill="#333333">Таймер</text>
+
+<rect x="12" y="128" width="236" height="40" rx="8" fill="transparent"/>
+<rect x="24" y="138" width="20" height="20" rx="4" fill="#E0E0E0" stroke="#CCCCCC"/>
+<text x="52" y="154" font-size="14" font-weight="normal" fill="#333333">Журнал времени</text>
+
+<rect x="12" y="176" width="236" height="40" rx="8" fill="#E8E8E8"/>
+<rect x="24" y="186" width="20" height="20" rx="4" fill="#E0E0E0" stroke="#CCCCCC"/>
+<text x="52" y="202" font-size="14" font-weight="bold" fill="#333333">Проекты и задачи</text>
+
+<rect x="12" y="224" width="236" height="40" rx="8" fill="transparent"/>
+<rect x="24" y="234" width="20" height="20" rx="4" fill="#E0E0E0" stroke="#CCCCCC"/>
+<text x="52" y="250" font-size="14" font-weight="normal" fill="#333333">Отчёты и экспорт</text>
+
+<rect x="12" y="272" width="236" height="40" rx="8" fill="transparent"/>
+<rect x="24" y="282" width="20" height="20" rx="4" fill="#E0E0E0" stroke="#CCCCCC"/>
+<text x="52" y="298" font-size="14" font-weight="normal" fill="#333333">Планы и лимиты</text>
+
+<rect x="12" y="320" width="236" height="40" rx="8" fill="transparent"/>
+<rect x="24" y="330" width="20" height="20" rx="4" fill="#E0E0E0" stroke="#CCCCCC"/>
+<text x="52" y="346" font-size="14" font-weight="normal" fill="#333333">Подключения</text>
+
+<rect x="12" y="368" width="236" height="40" rx="8" fill="transparent"/>
+<rect x="24" y="378" width="20" height="20" rx="4" fill="#E0E0E0" stroke="#CCCCCC"/>
+<text x="52" y="394" font-size="14" font-weight="normal" fill="#333333">Справка</text>
+<line x1="12" y1="436" x2="248" y2="436" stroke="#CCCCCC"/>
+<rect x="12" y="456" width="236" height="40" rx="8" fill="transparent"/>
+<rect x="24" y="466" width="20" height="20" rx="4" fill="#E0E0E0" stroke="#CCCCCC"/>
+<text x="52" y="482" font-size="14" fill="#333333">Личный кабинет</text>
+
+<rect x="12" y="832" width="236" height="52" rx="8" fill="transparent" stroke="#CCCCCC"/>
+<circle cx="40" cy="858" r="16" fill="#E0E0E0" stroke="#CCCCCC"/>
+<text x="64" y="852" font-size="13" font-weight="bold" fill="#333333">Иван Петров</text>
+<text x="64" y="866" font-size="11" fill="#999999">ivan@example.com</text>
+
+<rect x="260" y="0" width="1180" height="64" fill="#FAFAFA" stroke="#CCCCCC"/>
+<text x="292" y="40" font-size="20" font-weight="bold" fill="#333333">Проект: Редизайн сайта</text>
+<!-- Search in header -->
+<rect x="1060" y="16" width="240" height="32" rx="6" fill="white" stroke="#CCCCCC"/>
+<text x="1070" y="37" font-size="13" fill="#999999">Поиск...</text>
+<!-- Notifications bell -->
+<circle cx="1340" cy="32" r="16" fill="transparent" stroke="#CCCCCC"/>
+<text x="1334" y="37" font-size="14" fill="#999999">🔔</text>
+<!-- User avatar -->
+<circle cx="1392" cy="32" r="16" fill="#E0E0E0" stroke="#CCCCCC"/>
+
+<text x="292" y="116" font-size="13" fill="#999999">
+<tspan fill="#666666">Проекты</tspan> / Редизайн сайта
+</text>
+
+<rect x="292" y="146" width="1116" height="100" rx="12" fill="white" stroke="#CCCCCC"/>
+<rect x="292" y="146" width="8" height="100" rx="4" fill="#4A90D9"/>
+<text x="316" y="174" font-size="18" font-weight="bold" fill="#333333">Редизайн сайта</text>
+<text x="316" y="196" font-size="13" fill="#999999">Полный редизайн корпоративного сайта компании</text>
+<text x="316" y="222" font-size="12" fill="#999999">Создан: 01.03.2026 • Участники: 3 • Всего: 45ч 30м</text>
+<rect x="1268" y="166" width="120" height="32" rx="6" fill="#F5F5F5" stroke="#CCCCCC"/>
+<text x="1328" y="188" font-size="12" fill="#333333" text-anchor="middle">Редактировать</text>
+
+<text x="292" y="270" font-size="16" font-weight="bold" fill="#333333">Задачи (5)</text>
+<rect x="1268" y="256" width="140" height="32" rx="6" fill="#666666"/>
+<text x="1338" y="278" font-size="12" font-weight="bold" fill="white" text-anchor="middle">+ Новая задача</text>
+
+<rect x="292" y="296" width="1116" height="56" rx="8" fill="white" stroke="#CCCCCC"/>
+<rect x="308" y="316" width="16" height="16" rx="3" fill="transparent" stroke="#27AE60" stroke-width="2"/>
+<text x="336" y="320" font-size="14" font-weight="bold" fill="#333333">Анализ текущего сайта</text>
+<text x="336" y="338" font-size="12" fill="#999999">Время: 8:00:00</text>
+<rect x="1288" y="312" width="90" height="24" rx="12" fill="#27AE60" opacity="0.15"/>
+<text x="1333" y="330" font-size="11" fill="#27AE60" text-anchor="middle">Завершено</text>
+
+<rect x="292" y="360" width="1116" height="56" rx="8" fill="white" stroke="#CCCCCC"/>
+<rect x="308" y="380" width="16" height="16" rx="3" fill="transparent" stroke="#F39C12" stroke-width="2"/>
+<text x="336" y="384" font-size="14" font-weight="bold" fill="#333333">Создание макетов</text>
+<text x="336" y="402" font-size="12" fill="#999999">Время: 12:30:00</text>
+<rect x="1288" y="376" width="90" height="24" rx="12" fill="#F39C12" opacity="0.15"/>
+<text x="1333" y="394" font-size="11" fill="#F39C12" text-anchor="middle">В работе</text>
+
+<rect x="292" y="424" width="1116" height="56" rx="8" fill="white" stroke="#CCCCCC"/>
+<rect x="308" y="444" width="16" height="16" rx="3" fill="transparent" stroke="#F39C12" stroke-width="2"/>
+<text x="336" y="448" font-size="14" font-weight="bold" fill="#333333">Вёрстка главной страницы</text>
+<text x="336" y="466" font-size="12" fill="#999999">Время: 10:00:00</text>
+<rect x="1288" y="440" width="90" height="24" rx="12" fill="#F39C12" opacity="0.15"/>
+<text x="1333" y="458" font-size="11" fill="#F39C12" text-anchor="middle">В работе</text>
+
+<rect x="292" y="488" width="1116" height="56" rx="8" fill="white" stroke="#CCCCCC"/>
+<rect x="308" y="508" width="16" height="16" rx="3" fill="transparent" stroke="#999999" stroke-width="2"/>
+<text x="336" y="512" font-size="14" font-weight="bold" fill="#333333">Адаптивная вёрстка</text>
+<text x="336" y="530" font-size="12" fill="#999999">Время: 0:00:00</text>
+<rect x="1288" y="504" width="90" height="24" rx="12" fill="#999999" opacity="0.15"/>
+<text x="1333" y="522" font-size="11" fill="#999999" text-anchor="middle">Ожидание</text>
+
+<rect x="292" y="552" width="1116" height="56" rx="8" fill="white" stroke="#CCCCCC"/>
+<rect x="308" y="572" width="16" height="16" rx="3" fill="transparent" stroke="#999999" stroke-width="2"/>
+<text x="336" y="576" font-size="14" font-weight="bold" fill="#333333">Тестирование</text>
+<text x="336" y="594" font-size="12" fill="#999999">Время: 0:00:00</text>
+<rect x="1288" y="568" width="90" height="24" rx="12" fill="#999999" opacity="0.15"/>
+<text x="1333" y="586" font-size="11" fill="#999999" text-anchor="middle">Ожидание</text>
+</svg>

@@ -1,0 +1,127 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="shadow" x="-4" y="-2" width="108%" height="116%">
+    <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.06"/>
+  </filter>
+  <filter id="shadow-lg" x="-4" y="-2" width="108%" height="120%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.08"/>
+  </filter>
+  <linearGradient id="primary-gradient" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#4F6EF7"/>
+    <stop offset="100%" stop-color="#7C3AED"/>
+  </linearGradient>
+  <linearGradient id="sidebar-gradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#1A1D23"/>
+    <stop offset="100%" stop-color="#111318"/>
+  </linearGradient>
+  <linearGradient id="header-gradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="100%" stop-color="#FAFBFC"/>
+  </linearGradient>
+</defs>
+<style>
+  text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+</style>
+<rect width="1440" height="900" fill="#F8F9FB"/>
+<rect x="0" y="0" width="260" height="900" fill="url(#sidebar-gradient)"/>
+<!-- Logo -->
+<g transform="translate(20, 20)">
+  <rect width="36" height="36" rx="10" fill="url(#primary-gradient)"/>
+  <text x="18" y="24" font-size="16" font-weight="bold" fill="white" text-anchor="middle">T</text>
+</g>
+<text x="66" y="44" font-size="18" font-weight="700" fill="white" letter-spacing="-0.5">TimeTracker</text>
+<line x1="16" y1="64" x2="244" y2="64" stroke="#2D3139" stroke-opacity="0.5"/>
+<text x="20" y="92" font-size="10" font-weight="600" fill="#9CA3AF" letter-spacing="1.5">МЕНЮ</text>
+<g transform="translate(28, 119)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="135" font-size="14" font-weight="400" fill="#B8BCC8">Таймер</text>
+
+<g transform="translate(28, 165)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="181" font-size="14" font-weight="400" fill="#B8BCC8">Журнал времени</text>
+
+<g transform="translate(28, 211)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="227" font-size="14" font-weight="400" fill="#B8BCC8">Проекты и задачи</text>
+
+<g transform="translate(28, 257)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="273" font-size="14" font-weight="400" fill="#B8BCC8">Отчёты и экспорт</text>
+
+<g transform="translate(28, 303)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="319" font-size="14" font-weight="400" fill="#B8BCC8">Планы и лимиты</text>
+
+<g transform="translate(28, 349)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="365" font-size="14" font-weight="400" fill="#B8BCC8">Подключения</text>
+
+<rect x="8" y="384" width="244" height="42" rx="8" fill="#2D3139"/>
+<rect x="8" y="392" width="3" height="26" rx="1.5" fill="#4F6EF7"/>
+
+<g transform="translate(28, 395)" stroke="#FFFFFF" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="411" font-size="14" font-weight="600" fill="#FFFFFF">Справка</text>
+<line x1="16" y1="446" x2="244" y2="446" stroke="#2D3139" stroke-opacity="0.5"/><text x="20" y="474" font-size="10" font-weight="600" fill="#9CA3AF" letter-spacing="1.5">НАСТРОЙКИ</text>
+<text x="56" y="504" font-size="14" fill="#B8BCC8">Личный кабинет</text>
+
+<rect x="8" y="828" width="244" height="56" rx="10" fill="#2D3139"/>
+<circle cx="36" cy="856" r="18" fill="url(#primary-gradient)"/>
+<text x="36" y="862" font-size="13" font-weight="600" fill="white" text-anchor="middle">ИП</text>
+<text x="62" y="848" font-size="13" font-weight="600" fill="white">Иван Петров</text>
+<text x="62" y="864" font-size="11" fill="#B8BCC8">ivan@example.com</text>
+
+<rect x="260" y="0" width="1180" height="64" fill="url(#header-gradient)" filter="url(#shadow)"/>
+<text x="292" y="34" font-size="20" font-weight="700" fill="#111827" letter-spacing="-0.3">Справка и политика данных</text>
+
+<!-- Search -->
+<rect x="1020" y="16" width="260" height="32" rx="8" fill="#F8F9FB" stroke="#E5E7EB"/>
+<text x="1036" y="37" font-size="13" fill="#9CA3AF">⌘K  Поиск...</text>
+<!-- Notification bell -->
+<rect x="1300" y="16" width="32" height="32" rx="8" fill="#F8F9FB" stroke="#E5E7EB"/>
+<circle cx="1316" cy="32" r="2" fill="#EF4444"/>
+<!-- Settings -->
+<rect x="1340" y="16" width="32" height="32" rx="8" fill="#F8F9FB" stroke="#E5E7EB"/>
+<!-- User avatar in header -->
+<circle cx="1400" cy="32" r="16" fill="url(#primary-gradient)"/>
+<text x="1400" y="38" font-size="11" font-weight="600" fill="white" text-anchor="middle">ИП</text>
+<rect x="292" y="106" width="1116" height="48" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<rect x="300" y="112" width="54" height="36" rx="8" fill="#EEF1FE"/>
+<text x="327" y="136" font-size="13" font-weight="600" fill="#4F6EF7" text-anchor="middle">FAQ</text><text x="429" y="136" font-size="13" fill="#6B7280" text-anchor="middle">Руководство</text><text x="591" y="136" font-size="13" fill="#6B7280" text-anchor="middle">Политика данных</text><text x="768" y="136" font-size="13" fill="#6B7280" text-anchor="middle">Обратная связь</text><rect x="292" y="170" width="1116" height="48" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="312" y="200" font-size="18" fill="#9CA3AF">🔍</text>
+<text x="336" y="200" font-size="14" fill="#9CA3AF">Поиск по справке...</text>
+<rect x="292" y="234" width="1116" height="76" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="312" y="262" font-size="14" font-weight="600" fill="#111827">Как начать отслеживание времени?</text>
+<text x="312" y="286" font-size="12" fill="#6B7280">Нажмите «Старт» на главном экране или используйте Ctrl+Shift+T для быстрого запуска таймера.</text>
+<text x="1388" y="274" font-size="18" fill="#9CA3AF" text-anchor="end">▼</text>
+<rect x="292" y="318" width="1116" height="76" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="312" y="346" font-size="14" font-weight="600" fill="#111827">Как создать новый проект?</text>
+<text x="312" y="370" font-size="12" fill="#6B7280">Перейдите в «Проекты и задачи», нажмите «+ Новый проект» и заполните информацию.</text>
+<text x="1388" y="358" font-size="18" fill="#9CA3AF" text-anchor="end">▼</text>
+<rect x="292" y="402" width="1116" height="76" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="312" y="430" font-size="14" font-weight="600" fill="#111827">Как экспортировать отчёт?</text>
+<text x="312" y="454" font-size="12" fill="#6B7280">В разделе «Отчёты» выберите период и формат: PDF или CSV.</text>
+<text x="1388" y="442" font-size="18" fill="#9CA3AF" text-anchor="end">▼</text>
+<rect x="292" y="486" width="1116" height="76" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="312" y="514" font-size="14" font-weight="600" fill="#111827">Как добавить комментарий к записи?</text>
+<text x="312" y="538" font-size="12" fill="#6B7280">На карточке сессии нажмите иконку 💬 и введите комментарий.</text>
+<text x="1388" y="526" font-size="18" fill="#9CA3AF" text-anchor="end">▼</text>
+<rect x="292" y="570" width="1116" height="76" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="312" y="598" font-size="14" font-weight="600" fill="#111827">Как настроить уведомления?</text>
+<text x="312" y="622" font-size="12" fill="#6B7280">Личный кабинет → Уведомления. Настройте push и email уведомления.</text>
+<text x="1388" y="610" font-size="18" fill="#9CA3AF" text-anchor="end">▼</text>
+<rect x="292" y="654" width="1116" height="76" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="312" y="682" font-size="14" font-weight="600" fill="#111827">Как синхронизировать устройства?</text>
+<text x="312" y="706" font-size="12" fill="#6B7280">Личный кабинет → Синхронизация. Управляйте подключёнными устройствами.</text>
+<text x="1388" y="694" font-size="18" fill="#9CA3AF" text-anchor="end">▼</text>
+<rect x="292" y="738" width="1116" height="64" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="850" y="762" font-size="14" fill="#111827" text-anchor="middle">Не нашли ответ на вопрос?</text>
+<text x="850" y="786" font-size="15" font-weight="700" fill="#4F6EF7" text-anchor="middle">📧 Написать в поддержку</text>
+</svg>

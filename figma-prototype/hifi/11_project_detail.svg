@@ -1,0 +1,160 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="shadow" x="-4" y="-2" width="108%" height="116%">
+    <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.06"/>
+  </filter>
+  <filter id="shadow-lg" x="-4" y="-2" width="108%" height="120%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.08"/>
+  </filter>
+  <linearGradient id="primary-gradient" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#4F6EF7"/>
+    <stop offset="100%" stop-color="#7C3AED"/>
+  </linearGradient>
+  <linearGradient id="sidebar-gradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#1A1D23"/>
+    <stop offset="100%" stop-color="#111318"/>
+  </linearGradient>
+  <linearGradient id="header-gradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="100%" stop-color="#FAFBFC"/>
+  </linearGradient>
+</defs>
+<style>
+  text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+</style>
+<rect width="1440" height="900" fill="#F8F9FB"/>
+<rect x="0" y="0" width="260" height="900" fill="url(#sidebar-gradient)"/>
+<!-- Logo -->
+<g transform="translate(20, 20)">
+  <rect width="36" height="36" rx="10" fill="url(#primary-gradient)"/>
+  <text x="18" y="24" font-size="16" font-weight="bold" fill="white" text-anchor="middle">T</text>
+</g>
+<text x="66" y="44" font-size="18" font-weight="700" fill="white" letter-spacing="-0.5">TimeTracker</text>
+<line x1="16" y1="64" x2="244" y2="64" stroke="#2D3139" stroke-opacity="0.5"/>
+<text x="20" y="92" font-size="10" font-weight="600" fill="#9CA3AF" letter-spacing="1.5">МЕНЮ</text>
+<g transform="translate(28, 119)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="135" font-size="14" font-weight="400" fill="#B8BCC8">Таймер</text>
+
+<g transform="translate(28, 165)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="181" font-size="14" font-weight="400" fill="#B8BCC8">Журнал времени</text>
+
+<rect x="8" y="200" width="244" height="42" rx="8" fill="#2D3139"/>
+<rect x="8" y="208" width="3" height="26" rx="1.5" fill="#4F6EF7"/>
+
+<g transform="translate(28, 211)" stroke="#FFFFFF" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="227" font-size="14" font-weight="600" fill="#FFFFFF">Проекты и задачи</text>
+
+<g transform="translate(28, 257)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="273" font-size="14" font-weight="400" fill="#B8BCC8">Отчёты и экспорт</text>
+
+<g transform="translate(28, 303)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="319" font-size="14" font-weight="400" fill="#B8BCC8">Планы и лимиты</text>
+
+<g transform="translate(28, 349)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="365" font-size="14" font-weight="400" fill="#B8BCC8">Подключения</text>
+
+<g transform="translate(28, 395)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="411" font-size="14" font-weight="400" fill="#B8BCC8">Справка</text>
+<line x1="16" y1="446" x2="244" y2="446" stroke="#2D3139" stroke-opacity="0.5"/><text x="20" y="474" font-size="10" font-weight="600" fill="#9CA3AF" letter-spacing="1.5">НАСТРОЙКИ</text>
+<text x="56" y="504" font-size="14" fill="#B8BCC8">Личный кабинет</text>
+
+<rect x="8" y="828" width="244" height="56" rx="10" fill="#2D3139"/>
+<circle cx="36" cy="856" r="18" fill="url(#primary-gradient)"/>
+<text x="36" y="862" font-size="13" font-weight="600" fill="white" text-anchor="middle">ИП</text>
+<text x="62" y="848" font-size="13" font-weight="600" fill="white">Иван Петров</text>
+<text x="62" y="864" font-size="11" fill="#B8BCC8">ivan@example.com</text>
+
+<rect x="260" y="0" width="1180" height="64" fill="url(#header-gradient)" filter="url(#shadow)"/>
+<text x="292" y="34" font-size="20" font-weight="700" fill="#111827" letter-spacing="-0.3">Редизайн сайта</text>
+
+<!-- Search -->
+<rect x="1020" y="16" width="260" height="32" rx="8" fill="#F8F9FB" stroke="#E5E7EB"/>
+<text x="1036" y="37" font-size="13" fill="#9CA3AF">⌘K  Поиск...</text>
+<!-- Notification bell -->
+<rect x="1300" y="16" width="32" height="32" rx="8" fill="#F8F9FB" stroke="#E5E7EB"/>
+<circle cx="1316" cy="32" r="2" fill="#EF4444"/>
+<!-- Settings -->
+<rect x="1340" y="16" width="32" height="32" rx="8" fill="#F8F9FB" stroke="#E5E7EB"/>
+<!-- User avatar in header -->
+<circle cx="1400" cy="32" r="16" fill="url(#primary-gradient)"/>
+<text x="1400" y="38" font-size="11" font-weight="600" fill="white" text-anchor="middle">ИП</text>
+
+<text x="292" y="104" font-size="13" fill="#9CA3AF">
+<tspan font-weight="500" fill="#4F6EF7">Проекты</tspan>
+<tspan> / </tspan>
+<tspan>Редизайн сайта</tspan>
+</text>
+<rect x="292" y="120" width="1116" height="100" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<rect x="292" y="120" width="6" height="100" rx="3" fill="#4F6EF7"/>
+<rect x="316" y="140" width="48" height="48" rx="12" fill="#4F6EF7" opacity="0.12"/>
+<text x="340" y="172" font-size="22" font-weight="800" fill="#4F6EF7" text-anchor="middle">Р</text>
+<text x="380" y="158" font-size="20" font-weight="800" fill="#111827">Редизайн сайта</text>
+<text x="380" y="178" font-size="13" fill="#6B7280">Полный редизайн корпоративного сайта</text>
+<text x="380" y="198" font-size="12" fill="#9CA3AF">Создан: 01.03.2026 • 3 участника • 45ч 30м</text>
+
+<rect x="1268" y="152" width="120" height="36" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+<text x="1328" y="175" font-size="13" font-weight="500" fill="#111827" text-anchor="middle">Редактировать</text>
+<text x="292" y="244" font-size="16" font-weight="700" fill="#111827">Задачи</text>
+
+<rect x="372" y="232" width="23" height="22" rx="11" fill="#EEF1FE"/>
+<text x="383" y="247" font-size="11" font-weight="600" fill="#4F6EF7" text-anchor="middle">5</text>
+<rect x="1268" y="228" width="140" height="34" rx="8" fill="url(#primary-gradient)"/>
+<text x="1338" y="250" font-size="13" font-weight="600" fill="white" text-anchor="middle">+ Новая задача</text><rect x="292" y="264" width="1116" height="64" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<rect x="308" y="284" width="22" height="22" rx="6" fill="#22C55E" stroke="#22C55E" stroke-width="2"/>
+<text x="319" y="301" font-size="14" font-weight="700" fill="white" text-anchor="middle">✓</text>
+<text x="344" y="292" font-size="14" font-weight="600" fill="#111827">Анализ текущего сайта</text>
+<text x="344" y="312" font-size="12" fill="#6B7280">Время: 8:00ч</text>
+
+<rect x="1288" y="284" width="79" height="22" rx="11" fill="#ECFDF5"/>
+<text x="1327" y="299" font-size="11" font-weight="600" fill="#22C55E" text-anchor="middle">Завершено</text>
+<rect x="492" y="306" width="200" height="4" rx="2" fill="#E5E7EB"/>
+<rect x="492" y="306" width="200.0" height="4" rx="2" fill="#22C55E"/>
+<rect x="292" y="340" width="1116" height="64" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<rect x="308" y="360" width="22" height="22" rx="6" fill="none" stroke="#F59E0B" stroke-width="2"/>
+<text x="319" y="377" font-size="14" font-weight="700" fill="white" text-anchor="middle"></text>
+<text x="344" y="368" font-size="14" font-weight="600" fill="#111827">Создание макетов</text>
+<text x="344" y="388" font-size="12" fill="#6B7280">Время: 12:30ч</text>
+
+<rect x="1288" y="360" width="72" height="22" rx="11" fill="#FFFBEB"/>
+<text x="1324" y="375" font-size="11" font-weight="600" fill="#F59E0B" text-anchor="middle">В работе</text>
+<rect x="492" y="382" width="200" height="4" rx="2" fill="#E5E7EB"/>
+<rect x="492" y="382" width="130.0" height="4" rx="2" fill="#F59E0B"/>
+<rect x="292" y="416" width="1116" height="64" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<rect x="308" y="436" width="22" height="22" rx="6" fill="none" stroke="#F59E0B" stroke-width="2"/>
+<text x="319" y="453" font-size="14" font-weight="700" fill="white" text-anchor="middle"></text>
+<text x="344" y="444" font-size="14" font-weight="600" fill="#111827">Вёрстка главной</text>
+<text x="344" y="464" font-size="12" fill="#6B7280">Время: 10:00ч</text>
+
+<rect x="1288" y="436" width="72" height="22" rx="11" fill="#FFFBEB"/>
+<text x="1324" y="451" font-size="11" font-weight="600" fill="#F59E0B" text-anchor="middle">В работе</text>
+<rect x="492" y="458" width="200" height="4" rx="2" fill="#E5E7EB"/>
+<rect x="492" y="458" width="80.0" height="4" rx="2" fill="#F59E0B"/>
+<rect x="292" y="492" width="1116" height="64" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<rect x="308" y="512" width="22" height="22" rx="6" fill="none" stroke="#9CA3AF" stroke-width="2"/>
+<text x="319" y="529" font-size="14" font-weight="700" fill="white" text-anchor="middle"></text>
+<text x="344" y="520" font-size="14" font-weight="600" fill="#111827">Адаптивная вёрстка</text>
+<text x="344" y="540" font-size="12" fill="#6B7280">Время: 0:00ч</text>
+
+<rect x="1288" y="512" width="72" height="22" rx="11" fill="#EEF1FE"/>
+<text x="1324" y="527" font-size="11" font-weight="600" fill="#4F6EF7" text-anchor="middle">Ожидание</text><rect x="292" y="568" width="1116" height="64" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<rect x="308" y="588" width="22" height="22" rx="6" fill="none" stroke="#9CA3AF" stroke-width="2"/>
+<text x="319" y="605" font-size="14" font-weight="700" fill="white" text-anchor="middle"></text>
+<text x="344" y="596" font-size="14" font-weight="600" fill="#111827">Тестирование</text>
+<text x="344" y="616" font-size="12" fill="#6B7280">Время: 0:00ч</text>
+
+<rect x="1288" y="588" width="72" height="22" rx="11" fill="#EEF1FE"/>
+<text x="1324" y="603" font-size="11" font-weight="600" fill="#4F6EF7" text-anchor="middle">Ожидание</text></svg>

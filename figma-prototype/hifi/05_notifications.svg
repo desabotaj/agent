@@ -1,0 +1,141 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="shadow" x="-4" y="-2" width="108%" height="116%">
+    <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.06"/>
+  </filter>
+  <filter id="shadow-lg" x="-4" y="-2" width="108%" height="120%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.08"/>
+  </filter>
+  <linearGradient id="primary-gradient" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#4F6EF7"/>
+    <stop offset="100%" stop-color="#7C3AED"/>
+  </linearGradient>
+  <linearGradient id="sidebar-gradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#1A1D23"/>
+    <stop offset="100%" stop-color="#111318"/>
+  </linearGradient>
+  <linearGradient id="header-gradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="100%" stop-color="#FAFBFC"/>
+  </linearGradient>
+</defs>
+<style>
+  text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+</style>
+<rect width="1440" height="900" fill="#F8F9FB"/>
+<rect x="0" y="0" width="260" height="900" fill="url(#sidebar-gradient)"/>
+<!-- Logo -->
+<g transform="translate(20, 20)">
+  <rect width="36" height="36" rx="10" fill="url(#primary-gradient)"/>
+  <text x="18" y="24" font-size="16" font-weight="bold" fill="white" text-anchor="middle">T</text>
+</g>
+<text x="66" y="44" font-size="18" font-weight="700" fill="white" letter-spacing="-0.5">TimeTracker</text>
+<line x1="16" y1="64" x2="244" y2="64" stroke="#2D3139" stroke-opacity="0.5"/>
+<text x="20" y="92" font-size="10" font-weight="600" fill="#9CA3AF" letter-spacing="1.5">МЕНЮ</text>
+<g transform="translate(28, 119)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="135" font-size="14" font-weight="400" fill="#B8BCC8">Таймер</text>
+
+<g transform="translate(28, 165)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="181" font-size="14" font-weight="400" fill="#B8BCC8">Журнал времени</text>
+
+<g transform="translate(28, 211)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="227" font-size="14" font-weight="400" fill="#B8BCC8">Проекты и задачи</text>
+
+<g transform="translate(28, 257)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="273" font-size="14" font-weight="400" fill="#B8BCC8">Отчёты и экспорт</text>
+
+<g transform="translate(28, 303)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="319" font-size="14" font-weight="400" fill="#B8BCC8">Планы и лимиты</text>
+
+<g transform="translate(28, 349)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="365" font-size="14" font-weight="400" fill="#B8BCC8">Подключения</text>
+
+<g transform="translate(28, 395)" stroke="#B8BCC8" fill="none" stroke-width="1.5">
+  <rect width="20" height="20" rx="4" fill="none" stroke="none"/>
+</g>
+<text x="56" y="411" font-size="14" font-weight="400" fill="#B8BCC8">Справка</text>
+<line x1="16" y1="446" x2="244" y2="446" stroke="#2D3139" stroke-opacity="0.5"/><text x="20" y="474" font-size="10" font-weight="600" fill="#9CA3AF" letter-spacing="1.5">НАСТРОЙКИ</text>
+<text x="56" y="504" font-size="14" fill="#B8BCC8">Личный кабинет</text>
+
+<rect x="8" y="828" width="244" height="56" rx="10" fill="#2D3139"/>
+<circle cx="36" cy="856" r="18" fill="url(#primary-gradient)"/>
+<text x="36" y="862" font-size="13" font-weight="600" fill="white" text-anchor="middle">ИП</text>
+<text x="62" y="848" font-size="13" font-weight="600" fill="white">Иван Петров</text>
+<text x="62" y="864" font-size="11" fill="#B8BCC8">ivan@example.com</text>
+
+<rect x="260" y="0" width="1180" height="64" fill="url(#header-gradient)" filter="url(#shadow)"/>
+<text x="292" y="34" font-size="20" font-weight="700" fill="#111827" letter-spacing="-0.3">Уведомления и часовые пояса</text>
+
+<!-- Search -->
+<rect x="1020" y="16" width="260" height="32" rx="8" fill="#F8F9FB" stroke="#E5E7EB"/>
+<text x="1036" y="37" font-size="13" fill="#9CA3AF">⌘K  Поиск...</text>
+<!-- Notification bell -->
+<rect x="1300" y="16" width="32" height="32" rx="8" fill="#F8F9FB" stroke="#E5E7EB"/>
+<circle cx="1316" cy="32" r="2" fill="#EF4444"/>
+<!-- Settings -->
+<rect x="1340" y="16" width="32" height="32" rx="8" fill="#F8F9FB" stroke="#E5E7EB"/>
+<!-- User avatar in header -->
+<circle cx="1400" cy="32" r="16" fill="url(#primary-gradient)"/>
+<text x="1400" y="38" font-size="11" font-weight="600" fill="white" text-anchor="middle">ИП</text>
+<rect x="292" y="106" width="1116" height="48" rx="12" fill="#FFFFFF" filter="url(#shadow)"/><text x="347" y="136" font-size="13" fill="#6B7280" text-anchor="middle">Профиль</text><text x="479" y="136" font-size="13" fill="#6B7280" text-anchor="middle">Синхронизация</text>
+<rect x="564" y="112" width="134" height="36" rx="8" fill="#EEF1FE"/>
+<text x="631" y="136" font-size="13" font-weight="600" fill="#4F6EF7" text-anchor="middle">Уведомления</text><text x="793" y="136" font-size="13" fill="#6B7280" text-anchor="middle">Горячие клавиши</text><rect x="292" y="174" width="669.6" height="400" rx="12" fill="#FFFFFF" filter="url(#shadow)"/><text x="312" y="204" font-size="16" font-weight="700" fill="#111827">Настройки уведомлений</text>
+<text x="312" y="228" font-size="14" font-weight="500" fill="#111827">Напоминание о запуске таймера</text>
+<text x="312" y="244" font-size="12" fill="#9CA3AF">Получайте уведомление утром</text>
+<!-- Toggle -->
+<rect x="891.6" y="220" width="44" height="24" rx="12" fill="#4F6EF7"/>
+<circle cx="923.6" cy="232" r="9" fill="white" filter="url(#shadow)"/>
+<line x1="312" y1="262" x2="941.6" y2="262" stroke="#E5E7EB" stroke-opacity="0.5"/>
+<text x="312" y="280" font-size="14" font-weight="500" fill="#111827">Длительная сессия (>2ч)</text>
+<text x="312" y="296" font-size="12" fill="#9CA3AF">Предупреждение о долгой работе</text>
+<!-- Toggle -->
+<rect x="891.6" y="272" width="44" height="24" rx="12" fill="#4F6EF7"/>
+<circle cx="923.6" cy="284" r="9" fill="white" filter="url(#shadow)"/>
+<line x1="312" y1="314" x2="941.6" y2="314" stroke="#E5E7EB" stroke-opacity="0.5"/>
+<text x="312" y="332" font-size="14" font-weight="500" fill="#111827">Еженедельный отчёт</text>
+<text x="312" y="348" font-size="12" fill="#9CA3AF">Итоги недели по email</text>
+<!-- Toggle -->
+<rect x="891.6" y="324" width="44" height="24" rx="12" fill="#E5E7EB"/>
+<circle cx="905.6" cy="336" r="9" fill="white" filter="url(#shadow)"/>
+<line x1="312" y1="366" x2="941.6" y2="366" stroke="#E5E7EB" stroke-opacity="0.5"/>
+<text x="312" y="384" font-size="14" font-weight="500" fill="#111827">Ежедневное напоминание</text>
+<text x="312" y="400" font-size="12" fill="#9CA3AF">Ежедневная сводка в конце дня</text>
+<!-- Toggle -->
+<rect x="891.6" y="376" width="44" height="24" rx="12" fill="#4F6EF7"/>
+<circle cx="923.6" cy="388" r="9" fill="white" filter="url(#shadow)"/>
+<line x1="312" y1="418" x2="941.6" y2="418" stroke="#E5E7EB" stroke-opacity="0.5"/>
+<text x="312" y="436" font-size="14" font-weight="500" fill="#111827">Email-уведомления</text>
+<text x="312" y="452" font-size="12" fill="#9CA3AF">Дублировать уведомления на email</text>
+<!-- Toggle -->
+<rect x="891.6" y="428" width="44" height="24" rx="12" fill="#E5E7EB"/>
+<circle cx="905.6" cy="440" r="9" fill="white" filter="url(#shadow)"/>
+<line x1="312" y1="470" x2="941.6" y2="470" stroke="#E5E7EB" stroke-opacity="0.5"/>
+<text x="312" y="488" font-size="14" font-weight="500" fill="#111827">Push-уведомления</text>
+<text x="312" y="504" font-size="12" fill="#9CA3AF">Мгновенные уведомления в браузере</text>
+<!-- Toggle -->
+<rect x="891.6" y="480" width="44" height="24" rx="12" fill="#4F6EF7"/>
+<circle cx="923.6" cy="492" r="9" fill="white" filter="url(#shadow)"/>
+<line x1="312" y1="522" x2="941.6" y2="522" stroke="#E5E7EB" stroke-opacity="0.5"/><rect x="977.6" y="174" width="430.40000000000003" height="200" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+<text x="997.6" y="204" font-size="16" font-weight="700" fill="#111827">Часовой пояс</text>
+<text x="997.6" y="228" font-size="12" font-weight="600" fill="#6B7280">Текущий пояс</text>
+<rect x="997.6" y="236" width="390.40000000000003" height="40" rx="8" fill="#F8F9FB" stroke="#E5E7EB"/>
+<text x="1009.6" y="262" font-size="13" fill="#111827">(UTC+3) Москва</text>
+<text x="1376.0" y="262" font-size="12" fill="#9CA3AF">▼</text>
+
+<text x="997.6" y="302" font-size="12" font-weight="600" fill="#6B7280">Формат времени</text>
+<rect x="997.6" y="310" width="390.40000000000003" height="40" rx="8" fill="#F8F9FB" stroke="#E5E7EB"/>
+<text x="1009.6" y="336" font-size="13" fill="#111827">24-часовой</text>
+<text x="1376.0" y="336" font-size="12" fill="#9CA3AF">▼</text>
+</svg>

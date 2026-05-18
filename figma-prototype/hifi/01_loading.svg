@@ -1,0 +1,44 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="shadow" x="-4" y="-2" width="108%" height="116%">
+    <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.06"/>
+  </filter>
+  <filter id="shadow-lg" x="-4" y="-2" width="108%" height="120%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.08"/>
+  </filter>
+  <linearGradient id="primary-gradient" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#4F6EF7"/>
+    <stop offset="100%" stop-color="#7C3AED"/>
+  </linearGradient>
+  <linearGradient id="sidebar-gradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#1A1D23"/>
+    <stop offset="100%" stop-color="#111318"/>
+  </linearGradient>
+  <linearGradient id="header-gradient" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="100%" stop-color="#FAFBFC"/>
+  </linearGradient>
+</defs>
+<style>
+  text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+</style>
+<rect width="1440" height="900" fill="#F8F9FB"/>
+<rect width="1440" height="900" fill="#1A1D23"/>
+<!-- Centered content -->
+<g transform="translate(720, 370)">
+  <!-- Logo glow -->
+  <circle cx="0" cy="0" r="80" fill="#4F6EF7" opacity="0.05"/>
+  <circle cx="0" cy="0" r="60" fill="#4F6EF7" opacity="0.08"/>
+  <!-- Logo -->
+  <rect x="-40" y="-40" width="80" height="80" rx="20" fill="url(#primary-gradient)" filter="url(#shadow-lg)"/>
+  <text x="0" y="12" font-size="40" font-weight="800" fill="white" text-anchor="middle">T</text>
+</g>
+<text x="720" y="490" font-size="32" font-weight="800" fill="white" text-anchor="middle" letter-spacing="-1">TimeTracker</text>
+<text x="720" y="518" font-size="16" fill="#B8BCC8" text-anchor="middle">Учёт рабочего времени</text>
+<!-- Loading bar -->
+<rect x="600" y="550" width="240" height="4" rx="2" fill="#2D3139"/>
+<rect x="600" y="550" width="156" height="4" rx="2" fill="url(#primary-gradient)"/>
+<text x="720" y="580" font-size="13" fill="#B8BCC8" text-anchor="middle">Загрузка данных...</text>
+<!-- Version -->
+<text x="720" y="860" font-size="11" fill="#9CA3AF" text-anchor="middle">Версия 2.1.0</text>
+</svg>

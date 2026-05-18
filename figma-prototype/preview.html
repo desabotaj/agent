@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeTracker — Прототипы для Figma</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #0f0f10;
+            color: #fff;
+            padding: 40px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, #4F6EF7, #7C3AED);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle { color: #999; margin-bottom: 40px; font-size: 16px; }
+        .section-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin: 48px 0 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #222;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+            gap: 32px;
+        }
+        .screen-card {
+            background: #1a1a1d;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid #333;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .screen-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(79, 110, 247, 0.15);
+        }
+        .screen-card .preview {
+            width: 100%;
+            aspect-ratio: 1440 / 900;
+            overflow: hidden;
+            background: #fff;
+        }
+        .screen-card .preview img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .screen-card .info {
+            padding: 16px 20px;
+        }
+        .screen-card .info h3 {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .screen-card .info p {
+            font-size: 12px;
+            color: #888;
+        }
+        .screen-card .info .actions {
+            margin-top: 12px;
+            display: flex;
+            gap: 8px;
+        }
+        .screen-card .info .actions a {
+            font-size: 12px;
+            padding: 6px 12px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .btn-wireframe {
+            background: #2a2a2d;
+            color: #ccc;
+            border: 1px solid #444;
+        }
+        .btn-hifi {
+            background: linear-gradient(135deg, #4F6EF7, #7C3AED);
+            color: white;
+        }
+        .instructions {
+            background: #1a1a1d;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 24px;
+            margin: 32px 0;
+        }
+        .instructions h3 {
+            font-size: 18px;
+            margin-bottom: 12px;
+            color: #4F6EF7;
+        }
+        .instructions ol {
+            padding-left: 20px;
+            line-height: 2;
+            color: #ccc;
+        }
+        .instructions code {
+            background: #2a2a2d;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #7C3AED;
+        }
+        .ia-map {
+            margin: 24px 0;
+            padding: 20px;
+            background: #1a1a1d;
+            border-radius: 12px;
+            border: 1px solid #333;
+        }
+        .ia-map table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .ia-map th, .ia-map td {
+            padding: 8px 12px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+            font-size: 13px;
+        }
+        .ia-map th {
+            color: #4F6EF7;
+            font-weight: 600;
+        }
+        .ia-map td { color: #ccc; }
+        .ia-map td:first-child { font-weight: 500; color: white; }
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .badge-screen { background: #4F6EF720; color: #4F6EF7; }
+        .badge-sub { background: #7C3AED20; color: #7C3AED; }
+    </style>
+</head>
+<body>
+
+<h1>TimeTracker — Прототипы</h1>
+<p class="subtitle">Wireframe и высокодетализированные прототипы для Figma. 16 экранов на основе информационной архитектуры.</p>
+
+<div class="instructions">
+    <h3>Как вставить в Figma</h3>
+    <ol>
+        <li>Откройте нужный <code>.svg</code> файл из папки <code>wireframes/</code> или <code>hifi/</code></li>
+        <li>Скопируйте всё содержимое SVG файла (<code>Ctrl+A</code>, <code>Ctrl+C</code>)</li>
+        <li>В Figma нажмите <code>Ctrl+V</code> — SVG будет вставлен как векторный объект</li>
+        <li>Альтернативно: в Figma выберите <strong>File → Place Image</strong> и выберите SVG файл</li>
+        <li>Каждый экран — отдельный файл 1440×900px (стандартный десктоп)</li>
+    </ol>
+</div>
+
+<div class="ia-map">
+    <h3 style="color: #4F6EF7; margin-bottom: 12px;">Информационная архитектура (IA)</h3>
+    <table>
+        <tr><th>Экран</th><th>Тип</th><th>Файл</th></tr>
+        <tr><td>Загрузочный экран</td><td><span class="badge badge-screen">Экран</span></td><td>01_loading.svg</td></tr>
+        <tr><td>Главное окно / Таймер</td><td><span class="badge badge-screen">Экран</span></td><td>02_main_timer.svg</td></tr>
+        <tr><td>Профиль</td><td><span class="badge badge-sub">Подэкран</span></td><td>03_profile.svg</td></tr>
+        <tr><td>Синхронизация и устройства</td><td><span class="badge badge-sub">Подэкран</span></td><td>04_sync_devices.svg</td></tr>
+        <tr><td>Уведомления и часовые пояса</td><td><span class="badge badge-sub">Подэкран</span></td><td>05_notifications.svg</td></tr>
+        <tr><td>Горячие клавиши</td><td><span class="badge badge-sub">Подэкран</span></td><td>06_hotkeys.svg</td></tr>
+        <tr><td>Поиск</td><td><span class="badge badge-screen">Экран</span></td><td>07_search.svg</td></tr>
+        <tr><td>Расширенный поиск</td><td><span class="badge badge-sub">Подэкран</span></td><td>08_extended_search.svg</td></tr>
+        <tr><td>Журнал времени</td><td><span class="badge badge-screen">Экран</span></td><td>09_time_journal.svg</td></tr>
+        <tr><td>Проекты и задачи</td><td><span class="badge badge-screen">Экран</span></td><td>10_projects.svg</td></tr>
+        <tr><td>Детали проекта</td><td><span class="badge badge-sub">Подэкран</span></td><td>11_project_detail.svg</td></tr>
+        <tr><td>Детали задачи + комментарии</td><td><span class="badge badge-sub">Подэкран</span></td><td>12_task_detail.svg</td></tr>
+        <tr><td>Отчёты и экспорт</td><td><span class="badge badge-screen">Экран</span></td><td>13_reports.svg</td></tr>
+        <tr><td>Планы и лимиты</td><td><span class="badge badge-screen">Экран</span></td><td>14_plans_limits.svg</td></tr>
+        <tr><td>Подключения (интеграции)</td><td><span class="badge badge-screen">Экран</span></td><td>15_integrations.svg</td></tr>
+        <tr><td>Справка и политика данных</td><td><span class="badge badge-screen">Экран</span></td><td>16_help.svg</td></tr>
+    </table>
+</div>
+
+<h2 class="section-title">Wireframe-прототипы</h2>
+<div class="grid" id="wireframes-grid"></div>
+
+<h2 class="section-title">Высокодетализированные прототипы</h2>
+<div class="grid" id="hifi-grid"></div>
+
+<script>
+const screens = [
+    { id: '01_loading', name: 'Загрузочный экран', desc: 'Экран загрузки приложения с логотипом и индикатором' },
+    { id: '02_main_timer', name: 'Главное окно / Таймер', desc: 'Таймер и список задач — основной экран приложения' },
+    { id: '03_profile', name: 'Профиль', desc: 'Личный кабинет — редактирование профиля пользователя' },
+    { id: '04_sync_devices', name: 'Синхронизация и устройства', desc: 'Управление подключёнными устройствами' },
+    { id: '05_notifications', name: 'Уведомления', desc: 'Настройки уведомлений и часовых поясов' },
+    { id: '06_hotkeys', name: 'Горячие клавиши', desc: 'Список и настройка сочетаний клавиш' },
+    { id: '07_search', name: 'Поиск', desc: 'Быстрый поиск по задачам и проектам' },
+    { id: '08_extended_search', name: 'Расширенный поиск', desc: 'Поиск с фильтрами по дате, проекту, тегам' },
+    { id: '09_time_journal', name: 'Журнал времени', desc: 'Просмотр записей времени по дням' },
+    { id: '10_projects', name: 'Проекты и задачи', desc: 'Список всех проектов с прогрессом' },
+    { id: '11_project_detail', name: 'Детали проекта', desc: 'Задачи проекта, статус и время' },
+    { id: '12_task_detail', name: 'Детали задачи', desc: 'Сессии записи, комментарии к записям времени' },
+    { id: '13_reports', name: 'Отчёты и экспорт', desc: 'Графики, статистика, экспорт PDF/CSV' },
+    { id: '14_plans_limits', name: 'Планы и лимиты', desc: 'Ежедневные/недельные цели и лимиты проектов' },
+    { id: '15_integrations', name: 'Подключения', desc: 'Интеграции с внешними сервисами' },
+    { id: '16_help', name: 'Справка', desc: 'FAQ, руководство, политика данных' },
+];
+
+function renderGrid(containerId, folder) {
+    const container = document.getElementById(containerId);
+    screens.forEach(s => {
+        const card = document.createElement('div');
+        card.className = 'screen-card';
+        card.innerHTML = `
+            <div class="preview">
+                <img src="${folder}/${s.id}.svg" alt="${s.name}" loading="lazy"/>
+            </div>
+            <div class="info">
+                <h3>${s.name}</h3>
+                <p>${s.desc}</p>
+                <div class="actions">
+                    <a href="${folder}/${s.id}.svg" target="_blank" class="btn-${folder === 'wireframes' ? 'wireframe' : 'hifi'}">
+                        Открыть SVG
+                    </a>
+                </div>
+            </div>
+        `;
+        container.appendChild(card);
+    });
+}
+
+renderGrid('wireframes-grid', 'wireframes');
+renderGrid('hifi-grid', 'hifi');
+</script>
+
+</body>
+</html>
