@@ -1,49 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1160" viewBox="0 0 1400 1160">
-  <rect width="1400" height="1160" fill="#F7F9FA"/>
+  <rect width="1400" height="1160" fill="#FAF8F6"/>
   <style>
-    text{font-family:Inter,Arial,sans-serif;fill:#202B31}.kicker{font-size:16px;font-weight:700;letter-spacing:2px;fill:#176B87}.title{font-size:40px;font-weight:750}.sub{font-size:18px;fill:#536670}.row{font-size:20px;font-weight:700}.use{font-size:15px;fill:#687F89}.n{font-size:14px;font-weight:700}.h{font-size:13px;fill:#536670}.card{fill:#fff;stroke:#D6E0E4}.rule{font-size:15px;fill:#43525B}.rulehead{font-size:16px;font-weight:700}
+    text{font-family:Inter,Arial,sans-serif;fill:#2F2B28}.kicker{font-size:16px;font-weight:700;letter-spacing:2px;fill:#7357D9}.title{font-size:40px;font-weight:750}.sub{font-size:18px;fill:#6E625A}.row{font-size:20px;font-weight:700}.use{font-size:15px;fill:#887A70}.n{font-size:14px;font-weight:700}.h{font-size:13px;fill:#6E625A}.card{fill:#fff;stroke:#E4DED8}.rule{font-size:15px;fill:#594F49}.rulehead{font-size:16px;font-weight:700}
   </style>
-  <text x="80" y="62" class="kicker">VARIANT 2 / DESIGN SYSTEM</text>
-  <text x="80" y="112" class="title">Fishing tackle online store</text>
-  <text x="80" y="145" class="sub">Color palette inspired by water, reliability and outdoor recreation</text>
+  <text x="80" y="62" class="kicker">VARIANT 1 / DESIGN SYSTEM</text>
+  <text x="80" y="112" class="title">Interior design mobile app</text>
+  <text x="80" y="145" class="sub">An approachable palette for beginner designers: creativity, warmth and confidence</text>
 
-  <text x="80" y="218" class="row">Primary</text><text x="80" y="241" class="use">Lake blue</text>
+  <text x="80" y="218" class="row">Primary</text><text x="80" y="241" class="use">Creative violet</text>
   <g transform="translate(250 185)">
-    <g><rect width="104" height="68" rx="9" fill="#D9EEF7"/><text x="0" y="88" class="n">100</text><text x="0" y="106" class="h">#D9EEF7</text></g>
-    <g transform="translate(115)"><rect width="104" height="68" rx="9" fill="#B7DDEA"/><text x="0" y="88" class="n">200</text><text x="0" y="106" class="h">#B7DDEA</text></g>
-    <g transform="translate(230)"><rect width="104" height="68" rx="9" fill="#86C6DB"/><text x="0" y="88" class="n">300</text><text x="0" y="106" class="h">#86C6DB</text></g>
-    <g transform="translate(345)"><rect width="104" height="68" rx="9" fill="#4BA8C2"/><text x="0" y="88" class="n">400</text><text x="0" y="106" class="h">#4BA8C2</text></g>
-    <g transform="translate(460)"><rect width="104" height="68" rx="9" fill="#2589A5"/><text x="0" y="88" class="n">500</text><text x="0" y="106" class="h">#2589A5</text></g>
-    <g transform="translate(575)"><rect width="104" height="68" rx="9" fill="#176B87" stroke="#202B31" stroke-width="3"/><text x="0" y="88" class="n">600 BASE</text><text x="0" y="106" class="h">#176B87</text></g>
-    <g transform="translate(690)"><rect width="104" height="68" rx="9" fill="#15566E"/><text x="0" y="88" class="n">700</text><text x="0" y="106" class="h">#15566E</text></g>
-    <g transform="translate(805)"><rect width="104" height="68" rx="9" fill="#17485C"/><text x="0" y="88" class="n">800</text><text x="0" y="106" class="h">#17485C</text></g>
-    <g transform="translate(920)"><rect width="104" height="68" rx="9" fill="#183D4D"/><text x="0" y="88" class="n">900</text><text x="0" y="106" class="h">#183D4D</text></g>
+    <g><rect width="104" height="68" rx="9" fill="#EDE9FE"/><text x="0" y="88" class="n">100</text><text x="0" y="106" class="h">#EDE9FE</text></g>
+    <g transform="translate(115)"><rect width="104" height="68" rx="9" fill="#DDD6FE"/><text x="0" y="88" class="n">200</text><text x="0" y="106" class="h">#DDD6FE</text></g>
+    <g transform="translate(230)"><rect width="104" height="68" rx="9" fill="#C4B5FD"/><text x="0" y="88" class="n">300</text><text x="0" y="106" class="h">#C4B5FD</text></g>
+    <g transform="translate(345)"><rect width="104" height="68" rx="9" fill="#A78BFA"/><text x="0" y="88" class="n">400</text><text x="0" y="106" class="h">#A78BFA</text></g>
+    <g transform="translate(460)"><rect width="104" height="68" rx="9" fill="#8B6FF2"/><text x="0" y="88" class="n">500</text><text x="0" y="106" class="h">#8B6FF2</text></g>
+    <g transform="translate(575)"><rect width="104" height="68" rx="9" fill="#7357D9" stroke="#2F2B28" stroke-width="3"/><text x="0" y="88" class="n">600 BASE</text><text x="0" y="106" class="h">#7357D9</text></g>
+    <g transform="translate(690)"><rect width="104" height="68" rx="9" fill="#5D45B5"/><text x="0" y="88" class="n">700</text><text x="0" y="106" class="h">#5D45B5</text></g>
+    <g transform="translate(805)"><rect width="104" height="68" rx="9" fill="#4B3991"/><text x="0" y="88" class="n">800</text><text x="0" y="106" class="h">#4B3991</text></g>
+    <g transform="translate(920)"><rect width="104" height="68" rx="9" fill="#3C3070"/><text x="0" y="88" class="n">900</text><text x="0" y="106" class="h">#3C3070</text></g>
   </g>
 
-  <text x="80" y="363" class="row">Secondary</text><text x="80" y="386" class="use">Fresh turquoise</text>
+  <text x="80" y="363" class="row">Secondary</text><text x="80" y="386" class="use">Warm terracotta</text>
   <g transform="translate(250 330)">
-    <g><rect width="104" height="68" rx="9" fill="#CDF8F2"/><text x="0" y="88" class="n">100</text><text x="0" y="106" class="h">#CDF8F2</text></g>
-    <g transform="translate(115)"><rect width="104" height="68" rx="9" fill="#9BEFE5"/><text x="0" y="88" class="n">200</text><text x="0" y="106" class="h">#9BEFE5</text></g>
-    <g transform="translate(230)"><rect width="104" height="68" rx="9" fill="#5FE0D3"/><text x="0" y="88" class="n">300</text><text x="0" y="106" class="h">#5FE0D3</text></g>
-    <g transform="translate(345)"><rect width="104" height="68" rx="9" fill="#2BC8BC"/><text x="0" y="88" class="n">400</text><text x="0" y="106" class="h">#2BC8BC</text></g>
-    <g transform="translate(460)"><rect width="104" height="68" rx="9" fill="#14A99F"/><text x="0" y="88" class="n">500</text><text x="0" y="106" class="h">#14A99F</text></g>
-    <g transform="translate(575)"><rect width="104" height="68" rx="9" fill="#0D8882" stroke="#202B31" stroke-width="3"/><text x="0" y="88" class="n">600 BASE</text><text x="0" y="106" class="h">#0D8882</text></g>
-    <g transform="translate(690)"><rect width="104" height="68" rx="9" fill="#0F6D69"/><text x="0" y="88" class="n">700</text><text x="0" y="106" class="h">#0F6D69</text></g>
-    <g transform="translate(805)"><rect width="104" height="68" rx="9" fill="#115754"/><text x="0" y="88" class="n">800</text><text x="0" y="106" class="h">#115754</text></g>
-    <g transform="translate(920)"><rect width="104" height="68" rx="9" fill="#124946"/><text x="0" y="88" class="n">900</text><text x="0" y="106" class="h">#124946</text></g>
+    <g><rect width="104" height="68" rx="9" fill="#FBE9E3"/><text x="0" y="88" class="n">100</text><text x="0" y="106" class="h">#FBE9E3</text></g>
+    <g transform="translate(115)"><rect width="104" height="68" rx="9" fill="#F6D0C3"/><text x="0" y="88" class="n">200</text><text x="0" y="106" class="h">#F6D0C3</text></g>
+    <g transform="translate(230)"><rect width="104" height="68" rx="9" fill="#ECA88F"/><text x="0" y="88" class="n">300</text><text x="0" y="106" class="h">#ECA88F</text></g>
+    <g transform="translate(345)"><rect width="104" height="68" rx="9" fill="#DD8062"/><text x="0" y="88" class="n">400</text><text x="0" y="106" class="h">#DD8062</text></g>
+    <g transform="translate(460)"><rect width="104" height="68" rx="9" fill="#C96B4B"/><text x="0" y="88" class="n">500</text><text x="0" y="106" class="h">#C96B4B</text></g>
+    <g transform="translate(575)"><rect width="104" height="68" rx="9" fill="#AB5338" stroke="#2F2B28" stroke-width="3"/><text x="0" y="88" class="n">600 BASE</text><text x="0" y="106" class="h">#AB5338</text></g>
+    <g transform="translate(690)"><rect width="104" height="68" rx="9" fill="#8B422F"/><text x="0" y="88" class="n">700</text><text x="0" y="106" class="h">#8B422F</text></g>
+    <g transform="translate(805)"><rect width="104" height="68" rx="9" fill="#70372A"/><text x="0" y="88" class="n">800</text><text x="0" y="106" class="h">#70372A</text></g>
+    <g transform="translate(920)"><rect width="104" height="68" rx="9" fill="#5C3027"/><text x="0" y="88" class="n">900</text><text x="0" y="106" class="h">#5C3027</text></g>
   </g>
 
-  <text x="80" y="508" class="row">Neutral</text><text x="80" y="531" class="use">Cool gray</text>
+  <text x="80" y="508" class="row">Neutral</text><text x="80" y="531" class="use">Warm gray</text>
   <g transform="translate(250 475)">
-    <g><rect width="104" height="68" rx="9" fill="#EBF0F2" stroke="#D6E0E4"/><text x="0" y="88" class="n">100</text><text x="0" y="106" class="h">#EBF0F2</text></g>
-    <g transform="translate(115)"><rect width="104" height="68" rx="9" fill="#D6E0E4"/><text x="0" y="88" class="n">200</text><text x="0" y="106" class="h">#D6E0E4</text></g>
-    <g transform="translate(230)"><rect width="104" height="68" rx="9" fill="#B5C5CC"/><text x="0" y="88" class="n">300</text><text x="0" y="106" class="h">#B5C5CC</text></g>
-    <g transform="translate(345)"><rect width="104" height="68" rx="9" fill="#8CA2AC"/><text x="0" y="88" class="n">400</text><text x="0" y="106" class="h">#8CA2AC</text></g>
-    <g transform="translate(460)"><rect width="104" height="68" rx="9" fill="#687F89"/><text x="0" y="88" class="n">500</text><text x="0" y="106" class="h">#687F89</text></g>
-    <g transform="translate(575)"><rect width="104" height="68" rx="9" fill="#536670"/><text x="0" y="88" class="n">600</text><text x="0" y="106" class="h">#536670</text></g>
-    <g transform="translate(690)"><rect width="104" height="68" rx="9" fill="#43525B"/><text x="0" y="88" class="n">700</text><text x="0" y="106" class="h">#43525B</text></g>
-    <g transform="translate(805)"><rect width="104" height="68" rx="9" fill="#344149"/><text x="0" y="88" class="n">800</text><text x="0" y="106" class="h">#344149</text></g>
-    <g transform="translate(920)"><rect width="104" height="68" rx="9" fill="#202B31"/><text x="0" y="88" class="n">900</text><text x="0" y="106" class="h">#202B31</text></g>
+    <g><rect width="104" height="68" rx="9" fill="#F3F0ED" stroke="#E4DED8"/><text x="0" y="88" class="n">100</text><text x="0" y="106" class="h">#F3F0ED</text></g>
+    <g transform="translate(115)"><rect width="104" height="68" rx="9" fill="#E4DED8"/><text x="0" y="88" class="n">200</text><text x="0" y="106" class="h">#E4DED8</text></g>
+    <g transform="translate(230)"><rect width="104" height="68" rx="9" fill="#CBC1B8"/><text x="0" y="88" class="n">300</text><text x="0" y="106" class="h">#CBC1B8</text></g>
+    <g transform="translate(345)"><rect width="104" height="68" rx="9" fill="#AA9D92"/><text x="0" y="88" class="n">400</text><text x="0" y="106" class="h">#AA9D92</text></g>
+    <g transform="translate(460)"><rect width="104" height="68" rx="9" fill="#887A70"/><text x="0" y="88" class="n">500</text><text x="0" y="106" class="h">#887A70</text></g>
+    <g transform="translate(575)"><rect width="104" height="68" rx="9" fill="#6E625A"/><text x="0" y="88" class="n">600</text><text x="0" y="106" class="h">#6E625A</text></g>
+    <g transform="translate(690)"><rect width="104" height="68" rx="9" fill="#594F49"/><text x="0" y="88" class="n">700</text><text x="0" y="106" class="h">#594F49</text></g>
+    <g transform="translate(805)"><rect width="104" height="68" rx="9" fill="#463F3A"/><text x="0" y="88" class="n">800</text><text x="0" y="106" class="h">#463F3A</text></g>
+    <g transform="translate(920)"><rect width="104" height="68" rx="9" fill="#2F2B28"/><text x="0" y="88" class="n">900</text><text x="0" y="106" class="h">#2F2B28</text></g>
   </g>
 
   <text x="80" y="653" class="row">Success</text><text x="80" y="676" class="use">Positive feedback</text>
