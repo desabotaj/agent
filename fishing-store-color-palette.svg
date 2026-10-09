@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1160" viewBox="0 0 1400 1160">
+  <rect width="1400" height="1160" fill="#F7F9FA"/>
+  <style>
+    text{font-family:Inter,Arial,sans-serif;fill:#202B31}.kicker{font-size:16px;font-weight:700;letter-spacing:2px;fill:#176B87}.title{font-size:40px;font-weight:750}.sub{font-size:18px;fill:#536670}.row{font-size:20px;font-weight:700}.use{font-size:15px;fill:#687F89}.n{font-size:14px;font-weight:700}.h{font-size:13px;fill:#536670}.card{fill:#fff;stroke:#D6E0E4}.rule{font-size:15px;fill:#43525B}.rulehead{font-size:16px;font-weight:700}
+  </style>
+  <text x="80" y="62" class="kicker">VARIANT 2 / DESIGN SYSTEM</text>
+  <text x="80" y="112" class="title">Fishing tackle online store</text>
+  <text x="80" y="145" class="sub">Color palette inspired by water, reliability and outdoor recreation</text>
+
+  <text x="80" y="218" class="row">Primary</text><text x="80" y="241" class="use">Lake blue</text>
+  <g transform="translate(250 185)">
+    <g><rect width="104" height="68" rx="9" fill="#D9EEF7"/><text x="0" y="88" class="n">100</text><text x="0" y="106" class="h">#D9EEF7</text></g>
+    <g transform="translate(115)"><rect width="104" height="68" rx="9" fill="#B7DDEA"/><text x="0" y="88" class="n">200</text><text x="0" y="106" class="h">#B7DDEA</text></g>
+    <g transform="translate(230)"><rect width="104" height="68" rx="9" fill="#86C6DB"/><text x="0" y="88" class="n">300</text><text x="0" y="106" class="h">#86C6DB</text></g>
+    <g transform="translate(345)"><rect width="104" height="68" rx="9" fill="#4BA8C2"/><text x="0" y="88" class="n">400</text><text x="0" y="106" class="h">#4BA8C2</text></g>
+    <g transform="translate(460)"><rect width="104" height="68" rx="9" fill="#2589A5"/><text x="0" y="88" class="n">500</text><text x="0" y="106" class="h">#2589A5</text></g>
+    <g transform="translate(575)"><rect width="104" height="68" rx="9" fill="#176B87" stroke="#202B31" stroke-width="3"/><text x="0" y="88" class="n">600 BASE</text><text x="0" y="106" class="h">#176B87</text></g>
+    <g transform="translate(690)"><rect width="104" height="68" rx="9" fill="#15566E"/><text x="0" y="88" class="n">700</text><text x="0" y="106" class="h">#15566E</text></g>
+    <g transform="translate(805)"><rect width="104" height="68" rx="9" fill="#17485C"/><text x="0" y="88" class="n">800</text><text x="0" y="106" class="h">#17485C</text></g>
+    <g transform="translate(920)"><rect width="104" height="68" rx="9" fill="#183D4D"/><text x="0" y="88" class="n">900</text><text x="0" y="106" class="h">#183D4D</text></g>
+  </g>
+
+  <text x="80" y="363" class="row">Secondary</text><text x="80" y="386" class="use">Fresh turquoise</text>
+  <g transform="translate(250 330)">
+    <g><rect width="104" height="68" rx="9" fill="#CDF8F2"/><text x="0" y="88" class="n">100</text><text x="0" y="106" class="h">#CDF8F2</text></g>
+    <g transform="translate(115)"><rect width="104" height="68" rx="9" fill="#9BEFE5"/><text x="0" y="88" class="n">200</text><text x="0" y="106" class="h">#9BEFE5</text></g>
+    <g transform="translate(230)"><rect width="104" height="68" rx="9" fill="#5FE0D3"/><text x="0" y="88" class="n">300</text><text x="0" y="106" class="h">#5FE0D3</text></g>
+    <g transform="translate(345)"><rect width="104" height="68" rx="9" fill="#2BC8BC"/><text x="0" y="88" class="n">400</text><text x="0" y="106" class="h">#2BC8BC</text></g>
+    <g transform="translate(460)"><rect width="104" height="68" rx="9" fill="#14A99F"/><text x="0" y="88" class="n">500</text><text x="0" y="106" class="h">#14A99F</text></g>
+    <g transform="translate(575)"><rect width="104" height="68" rx="9" fill="#0D8882" stroke="#202B31" stroke-width="3"/><text x="0" y="88" class="n">600 BASE</text><text x="0" y="106" class="h">#0D8882</text></g>
+    <g transform="translate(690)"><rect width="104" height="68" rx="9" fill="#0F6D69"/><text x="0" y="88" class="n">700</text><text x="0" y="106" class="h">#0F6D69</text></g>
+    <g transform="translate(805)"><rect width="104" height="68" rx="9" fill="#115754"/><text x="0" y="88" class="n">800</text><text x="0" y="106" class="h">#115754</text></g>
+    <g transform="translate(920)"><rect width="104" height="68" rx="9" fill="#124946"/><text x="0" y="88" class="n">900</text><text x="0" y="106" class="h">#124946</text></g>
+  </g>
+
+  <text x="80" y="508" class="row">Neutral</text><text x="80" y="531" class="use">Cool gray</text>
+  <g transform="translate(250 475)">
+    <g><rect width="104" height="68" rx="9" fill="#EBF0F2" stroke="#D6E0E4"/><text x="0" y="88" class="n">100</text><text x="0" y="106" class="h">#EBF0F2</text></g>
+    <g transform="translate(115)"><rect width="104" height="68" rx="9" fill="#D6E0E4"/><text x="0" y="88" class="n">200</text><text x="0" y="106" class="h">#D6E0E4</text></g>
+    <g transform="translate(230)"><rect width="104" height="68" rx="9" fill="#B5C5CC"/><text x="0" y="88" class="n">300</text><text x="0" y="106" class="h">#B5C5CC</text></g>
+    <g transform="translate(345)"><rect width="104" height="68" rx="9" fill="#8CA2AC"/><text x="0" y="88" class="n">400</text><text x="0" y="106" class="h">#8CA2AC</text></g>
+    <g transform="translate(460)"><rect width="104" height="68" rx="9" fill="#687F89"/><text x="0" y="88" class="n">500</text><text x="0" y="106" class="h">#687F89</text></g>
+    <g transform="translate(575)"><rect width="104" height="68" rx="9" fill="#536670"/><text x="0" y="88" class="n">600</text><text x="0" y="106" class="h">#536670</text></g>
+    <g transform="translate(690)"><rect width="104" height="68" rx="9" fill="#43525B"/><text x="0" y="88" class="n">700</text><text x="0" y="106" class="h">#43525B</text></g>
+    <g transform="translate(805)"><rect width="104" height="68" rx="9" fill="#344149"/><text x="0" y="88" class="n">800</text><text x="0" y="106" class="h">#344149</text></g>
+    <g transform="translate(920)"><rect width="104" height="68" rx="9" fill="#202B31"/><text x="0" y="88" class="n">900</text><text x="0" y="106" class="h">#202B31</text></g>
+  </g>
+
+  <text x="80" y="653" class="row">Success</text><text x="80" y="676" class="use">Positive feedback</text>
+  <g transform="translate(250 620)">
+    <g><rect width="104" height="68" rx="9" fill="#DAF5E3"/><text x="0" y="88" class="n">100</text><text x="0" y="106" class="h">#DAF5E3</text></g>
+    <g transform="translate(115)"><rect width="104" height="68" rx="9" fill="#B8EAC9"/><text x="0" y="88" class="n">200</text><text x="0" y="106" class="h">#B8EAC9</text></g>
+    <g transform="translate(230)"><rect width="104" height="68" rx="9" fill="#87D9A2"/><text x="0" y="88" class="n">300</text><text x="0" y="106" class="h">#87D9A2</text></g>
+    <g transform="translate(345)"><rect width="104" height="68" rx="9" fill="#4FC17A"/><text x="0" y="88" class="n">400</text><text x="0" y="106" class="h">#4FC17A</text></g>
+    <g transform="translate(460)"><rect width="104" height="68" rx="9" fill="#2AA45D"/><text x="0" y="88" class="n">500</text><text x="0" y="106" class="h">#2AA45D</text></g>
+    <g transform="translate(575)"><rect width="104" height="68" rx="9" fill="#1E8449" stroke="#202B31" stroke-width="3"/><text x="0" y="88" class="n">600 BASE</text><text x="0" y="106" class="h">#1E8449</text></g>
+    <g transform="translate(690)"><rect width="104" height="68" rx="9" fill="#1B693D"/><text x="0" y="88" class="n">700</text><text x="0" y="106" class="h">#1B693D</text></g>
+    <g transform="translate(805)"><rect width="104" height="68" rx="9" fill="#185432"/><text x="0" y="88" class="n">800</text><text x="0" y="106" class="h">#185432</text></g>
+    <g transform="translate(920)"><rect width="104" height="68" rx="9" fill="#154529"/><text x="0" y="88" class="n">900</text><text x="0" y="106" class="h">#154529</text></g>
+  </g>
+
+  <text x="80" y="798" class="row">Warning</text><text x="80" y="821" class="use">Attention needed</text>
+  <g transform="translate(250 765)">
+    <g><rect width="104" height="68" rx="9" fill="#FFF0BF"/><text x="0" y="88" class="n">100</text><text x="0" y="106" class="h">#FFF0BF</text></g>
+    <g transform="translate(115)"><rect width="104" height="68" rx="9" fill="#FFE080"/><text x="0" y="88" class="n">200</text><text x="0" y="106" class="h">#FFE080</text></g>
+    <g transform="translate(230)"><rect width="104" height="68" rx="9" fill="#FFCA3A"/><text x="0" y="88" class="n">300</text><text x="0" y="106" class="h">#FFCA3A</text></g>
+    <g transform="translate(345)"><rect width="104" height="68" rx="9" fill="#F5AF15"/><text x="0" y="88" class="n">400</text><text x="0" y="106" class="h">#F5AF15</text></g>
+    <g transform="translate(460)"><rect width="104" height="68" rx="9" fill="#D99008"/><text x="0" y="88" class="n">500</text><text x="0" y="106" class="h">#D99008</text></g>
+    <g transform="translate(575)"><rect width="104" height="68" rx="9" fill="#B66D05" stroke="#202B31" stroke-width="3"/><text x="0" y="88" class="n">600 BASE</text><text x="0" y="106" class="h">#B66D05</text></g>
+    <g transform="translate(690)"><rect width="104" height="68" rx="9" fill="#925007"/><text x="0" y="88" class="n">700</text><text x="0" y="106" class="h">#925007</text></g>
+    <g transform="translate(805)"><rect width="104" height="68" rx="9" fill="#783F0B"/><text x="0" y="88" class="n">800</text><text x="0" y="106" class="h">#783F0B</text></g>
+    <g transform="translate(920)"><rect width="104" height="68" rx="9" fill="#65350D"/><text x="0" y="88" class="n">900</text><text x="0" y="106" class="h">#65350D</text></g>
+  </g>
+
+  <text x="80" y="943" class="row">Error</text><text x="80" y="966" class="use">Critical feedback</text>
+  <g transform="translate(250 910)">
+    <g><rect width="104" height="68" rx="9" fill="#FFE0DD"/><text x="0" y="88" class="n">100</text><text x="0" y="106" class="h">#FFE0DD</text></g>
+    <g transform="translate(115)"><rect width="104" height="68" rx="9" fill="#FFC5C0"/><text x="0" y="88" class="n">200</text><text x="0" y="106" class="h">#FFC5C0</text></g>
+    <g transform="translate(230)"><rect width="104" height="68" rx="9" fill="#FF9D95"/><text x="0" y="88" class="n">300</text><text x="0" y="106" class="h">#FF9D95</text></g>
+    <g transform="translate(345)"><rect width="104" height="68" rx="9" fill="#F66D63"/><text x="0" y="88" class="n">400</text><text x="0" y="106" class="h">#F66D63</text></g>
+    <g transform="translate(460)"><rect width="104" height="68" rx="9" fill="#DE443A"/><text x="0" y="88" class="n">500</text><text x="0" y="106" class="h">#DE443A</text></g>
+    <g transform="translate(575)"><rect width="104" height="68" rx="9" fill="#BA2D25" stroke="#202B31" stroke-width="3"/><text x="0" y="88" class="n">600 BASE</text><text x="0" y="106" class="h">#BA2D25</text></g>
+    <g transform="translate(690)"><rect width="104" height="68" rx="9" fill="#982720"/><text x="0" y="88" class="n">700</text><text x="0" y="106" class="h">#982720</text></g>
+    <g transform="translate(805)"><rect width="104" height="68" rx="9" fill="#7E2722"/><text x="0" y="88" class="n">800</text><text x="0" y="106" class="h">#7E2722</text></g>
+    <g transform="translate(920)"><rect width="104" height="68" rx="9" fill="#692521"/><text x="0" y="88" class="n">900</text><text x="0" y="106" class="h">#692521</text></g>
+  </g>
+
+  <rect x="80" y="1045" width="1240" height="82" rx="14" class="card"/>
+  <text x="105" y="1077" class="rulehead">Figma naming</text><text x="105" y="1102" class="rule">Category / shade: Primary / 600, Neutral / 200, Error / 600.</text>
+  <text x="650" y="1077" class="rulehead">Usage</text><text x="650" y="1102" class="rule">Text: Neutral / 900. Border: Neutral / 200. Main action: Primary / 600.</text>
+</svg>
