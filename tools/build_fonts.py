@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+import math
+import random
 import shutil
 import tempfile
 from pathlib import Path
@@ -15,12 +17,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 SYSTEM_FONT_DIR = Path("/usr/share/fonts/truetype/noto")
 
-UNICODES = (
-    "U+0020-007E,U+00A0-00FF,U+0102-0103,U+0110-0111,U+0128-0129,"
-    "U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-036F,U+0400-052F,"
-    "U+1E00-1EFF,U+2000-206F,U+20AC,U+20BD,U+2116,U+2122,U+2190-2199,"
-    "U+2212,U+25CA"
-)
+# Deliberately tiny student character set: space and Russian А–Я, without Ё.
+UNICODES = "U+0020,U+0410-042F"
 
 BUILDS = (
     {
@@ -30,6 +28,7 @@ BUILDS = (
         "file": "ProstranstvoSans-Regular.ttf",
         "x_scale": 0.955,
         "tracking": 10,
+        "wobble": 40,
         "italic": False,
     },
     {
@@ -39,6 +38,7 @@ BUILDS = (
         "file": "ProstranstvoSans-Italic.ttf",
         "x_scale": 0.955,
         "tracking": 10,
+        "wobble": 40,
         "italic": True,
     },
     {
@@ -48,6 +48,7 @@ BUILDS = (
         "file": "ProstranstvoSerif-Regular.ttf",
         "x_scale": 1.025,
         "tracking": 4,
+        "wobble": 32,
         "italic": False,
     },
     {
@@ -57,6 +58,7 @@ BUILDS = (
         "file": "ProstranstvoSerif-Italic.ttf",
         "x_scale": 1.025,
         "tracking": 4,
+        "wobble": 32,
         "italic": True,
     },
 )
@@ -102,12 +104,30 @@ def transform_font(path: Path, build: dict[str, object]) -> None:
     font = TTFont(path)
     x_scale = float(build["x_scale"])
     tracking = int(build["tracking"])
+    wobble = int(build["wobble"])
 
     glyf = font["glyf"]
     hmtx = font["hmtx"]
     for glyph_name in font.getGlyphOrder():
-        coordinates, _ = glyf._getCoordinatesAndControls(glyph_name, hmtx.metrics)
+        coordinates, controls = glyf._getCoordinatesAndControls(
+            glyph_name, hmtx.metrics
+        )
         coordinates.transform(((x_scale, 0), (0, 1)))
+        if controls.numberOfContours > 0:
+            # Small point-by-point deviations imitate an inexperienced hand:
+            # stems do not line up perfectly and curves are slightly lumpy.
+            for index in range(len(coordinates) - 4):
+                x, y = coordinates[index]
+                noise = random.Random(f"{glyph_name}:{index}")
+                dx = wobble * (
+                    0.55 * math.sin(y / 83 + index * 0.71)
+                    + 0.45 * noise.uniform(-1, 1)
+                )
+                dy = wobble * (
+                    0.55 * math.sin(x / 97 + index * 0.53)
+                    + 0.45 * noise.uniform(-1, 1)
+                )
+                coordinates[index] = (round(x + dx), round(y + dy))
         glyf._setCoordinates(glyph_name, coordinates, hmtx.metrics)
         advance, lsb = hmtx[glyph_name]
         hmtx[glyph_name] = (
@@ -131,7 +151,8 @@ def transform_font(path: Path, build: dict[str, object]) -> None:
     set_name(
         font,
         10,
-        "A Cyrillic type system for an interior-design learning application. "
+        "An intentionally imperfect student Cyrillic font for an "
+        "interior-design learning application. Russian capitals only. "
         "Derived from Noto under the SIL Open Font License 1.1.",
     )
     set_name(font, 11, "https://github.com/notofonts")

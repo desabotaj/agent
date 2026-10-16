@@ -8,12 +8,8 @@ from fontTools.ttLib import TTFont
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
-REQUIRED_TEXT = (
-    "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"
-    "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-    "0123456789№₽€"
-)
+REQUIRED_TEXT = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"
+EXPECTED_CODEPOINTS = {0x20, *range(0x0410, 0x0430)}
 EXPECTED = {
     "ProstranstvoSans-Regular.ttf": ("Prostranstvo Sans", "Regular", False),
     "ProstranstvoSans-Italic.ttf": ("Prostranstvo Sans", "Italic", True),
@@ -34,6 +30,12 @@ def main() -> None:
         missing = sorted({char for char in REQUIRED_TEXT if ord(char) not in cmap})
         if missing:
             failures.append(f"{filename}: missing {''.join(missing)}")
+        unexpected = sorted(set(cmap) - EXPECTED_CODEPOINTS)
+        if unexpected:
+            failures.append(
+                f"{filename}: unexpected encoded characters "
+                + " ".join(f"U+{value:04X}" for value in unexpected)
+            )
         if font["name"].getDebugName(1) != family:
             failures.append(f"{filename}: wrong family name")
         if font["name"].getDebugName(2) != style:
@@ -44,8 +46,6 @@ def main() -> None:
             failures.append(f"{filename}: wrong italic macStyle bit")
         if (font["post"].italicAngle != 0) != italic:
             failures.append(f"{filename}: wrong italic angle")
-        if len(cmap) < 700:
-            failures.append(f"{filename}: unexpectedly small cmap ({len(cmap)})")
         print(
             f"OK {filename}: {len(cmap)} encoded characters, "
             f"{len(font.getGlyphOrder())} glyphs"
