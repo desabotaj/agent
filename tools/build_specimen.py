@@ -108,7 +108,7 @@ def face_page(c: Canvas, alias: str, title: str, style: str, page: int) -> None:
     c.setFont(alias, 18)
     c.drawString(42, H - 228, "ДОМ  ОКНО  СТЕНА  ДЕРЕВО  ТКАНЬ")
     c.setFont(alias, 30)
-    c.drawString(42, H - 295, "НЕРОВНО  ПРОСТО  ПО НОВИЧКОВОМУ")
+    c.drawString(42, H - 295, "АККУРАТНО  ЖИВО  НЕ МЕХАНИЧЕСКИ")
     footer(c, page)
     c.showPage()
 

@@ -28,7 +28,7 @@ BUILDS = (
         "file": "ProstranstvoSans-Regular.ttf",
         "x_scale": 0.955,
         "tracking": 10,
-        "wobble": 40,
+        "wobble": 20,
         "italic": False,
     },
     {
@@ -38,7 +38,7 @@ BUILDS = (
         "file": "ProstranstvoSans-Italic.ttf",
         "x_scale": 0.955,
         "tracking": 10,
-        "wobble": 40,
+        "wobble": 20,
         "italic": True,
     },
     {
@@ -48,7 +48,7 @@ BUILDS = (
         "file": "ProstranstvoSerif-Regular.ttf",
         "x_scale": 1.025,
         "tracking": 4,
-        "wobble": 32,
+        "wobble": 17,
         "italic": False,
     },
     {
@@ -58,7 +58,7 @@ BUILDS = (
         "file": "ProstranstvoSerif-Italic.ttf",
         "x_scale": 1.025,
         "tracking": 4,
-        "wobble": 32,
+        "wobble": 17,
         "italic": True,
     },
 )
@@ -114,8 +114,8 @@ def transform_font(path: Path, build: dict[str, object]) -> None:
         )
         coordinates.transform(((x_scale, 0), (0, 1)))
         if controls.numberOfContours > 0:
-            # Small point-by-point deviations imitate an inexperienced hand:
-            # stems do not line up perfectly and curves are slightly lumpy.
+            # Restrained point-by-point deviations keep a careful student
+            # drawing from looking mechanically perfect.
             for index in range(len(coordinates) - 4):
                 x, y = coordinates[index]
                 noise = random.Random(f"{glyph_name}:{index}")
