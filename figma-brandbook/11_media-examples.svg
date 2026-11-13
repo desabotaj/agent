@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024">
+
+  <style>
+    @font-face{font-family:'Prostranstvo Sans';src:url('../dist/ProstranstvoSans-Regular.ttf')}
+    @font-face{font-family:'Prostranstvo Serif';src:url('../dist/ProstranstvoSerif-Regular.ttf')}
+    @font-face{font-family:'Prostranstvo Decor';src:url('../dist/ProstranstvoDecor-Regular.ttf')}
+    .sans{font-family:'Prostranstvo Sans','DejaVu Sans',Arial,sans-serif}
+    .serif{font-family:'Prostranstvo Serif','DejaVu Serif',Georgia,serif}
+    .decor{font-family:'Prostranstvo Decor','Prostranstvo Serif',Georgia,serif}
+    .kicker{font:700 14px 'DejaVu Sans',Arial,sans-serif;letter-spacing:2.2px}
+    .title{font:400 48px 'Prostranstvo Serif','DejaVu Serif',Georgia,serif}
+    .h2{font:400 30px 'Prostranstvo Serif','DejaVu Serif',Georgia,serif}
+    .body{font:400 18px 'Prostranstvo Sans','DejaVu Sans',Arial,sans-serif}
+    .small{font:400 14px 'Prostranstvo Sans','DejaVu Sans',Arial,sans-serif}
+    .label{font:700 13px 'DejaVu Sans',Arial,sans-serif;letter-spacing:1.2px}
+    .num{font:400 92px 'Prostranstvo Serif','DejaVu Serif',Georgia,serif}
+  </style>
+
+  <rect x="0" y="0" width="1440" height="1024" rx="0" fill="#F4F0E8" stroke="none" stroke-width="1"/>
+  
+    <text x="72" y="58" class="kicker" fill="#B65E43" text-anchor="start">11  /  ПРИМЕРЫ КОММУНИКАЦИИ</text><line x1="72" y1="78" x2="1368" y2="78" stroke="#E7C3B7" stroke-width="2"/>
+    <text x="72" y="163" class="title" fill="#242422" text-anchor="start">Один характер на разных носителях</text>
+    <rect x="72" y="236" width="606" height="640" rx="24" fill="#B65E43" stroke="none" stroke-width="1"/>
+    <text x="108" y="285" class="kicker" fill="#FFFFFF" text-anchor="start">СОЦИАЛЬНЫЕ СЕТИ / 4:5</text>
+    
+    <g transform="translate(110 354) scale(0.9)">
+      <path d="M0 170 L0 0 L170 0" fill="none" stroke="#FFFFFF" stroke-width="18"
+        stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="88" cy="88" r="37" fill="#DDE4D8"/>
+    </g>
+    <text x="108" y="620" class="title" fill="#FFFFFF"><tspan x="108" dy="0">НЕ НАЧИНАЙТЕ</tspan><tspan x="108" dy="67">С ЦВЕТА СТЕН</tspan></text>
+    <text x="112" y="760" class="body" fill="#FFFFFF"><tspan x="112" dy="0">Сначала решите, что вы будете</tspan><tspan x="112" dy="32">делать в этой комнате.</tspan></text>
+    <rect x="110" y="820" width="220" height="42" rx="21" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+    <text x="220" y="847" class="label" fill="#B65E43" text-anchor="middle">СОВЕТ В ПРИЛОЖЕНИИ</text>
+    <rect x="710" y="236" width="658" height="300" rx="24" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+    
+    <g transform="translate(756 286) scale(0.7)">
+      <path d="M0 170 L0 0 L170 0" fill="none" stroke="#B65E43" stroke-width="18"
+        stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="88" cy="88" r="37" fill="#71816D"/>
+    </g>
+    <text x="913" y="354" class="decor" fill="#242422" font-size="44px">ПРОСТРАНСТВО</text>
+    <text x="917" y="398" class="label" fill="#71816D" text-anchor="start">ДИЗАЙН ИНТЕРЬЕРА С НУЛЯ</text>
+    <text x="752" y="488" class="kicker" fill="#B65E43" text-anchor="start">РЕКЛАМНЫЙ БАННЕР / СВЕТЛАЯ ВЕРСИЯ</text>
+    <rect x="710" y="568" width="658" height="308" rx="24" fill="#242422" stroke="none" stroke-width="1"/>
+    <text x="752" y="615" class="kicker" fill="#B65E43" text-anchor="start">PUSH-УВЕДОМЛЕНИЕ</text>
+    <rect x="752" y="658" width="574" height="142" rx="22" fill="#F4F0E8" stroke="none" stroke-width="1"/>
+    
+    <g transform="translate(778 687) scale(0.42)">
+      <path d="M0 170 L0 0 L170 0" fill="none" stroke="#B65E43" stroke-width="18"
+        stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="88" cy="88" r="37" fill="#71816D"/>
+    </g>
+    <text x="879" y="710" class="label" fill="#242422" text-anchor="start">ПРОСТРАНСТВО</text>
+    <text x="879" y="745" class="body" fill="#242422" text-anchor="start">Пора выбрать свет для гостиной</text>
+    <text x="879" y="774" class="small" fill="#71816D" text-anchor="start">Мы подготовили три простых сценария.</text>
+    <text x="72" y="982" class="label" fill="#71816D" text-anchor="start">ПРОСТРАНСТВО  •  БРЕНДБУК</text><text x="1368" y="982" class="label" fill="#71816D" text-anchor="end">12</text>
+    
+</svg>
