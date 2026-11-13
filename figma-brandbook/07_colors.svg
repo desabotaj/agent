@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024">
+
+  <style>
+    @font-face{font-family:'Prostranstvo Sans';src:url('../dist/ProstranstvoSans-Regular.ttf')}
+    @font-face{font-family:'Prostranstvo Serif';src:url('../dist/ProstranstvoSerif-Regular.ttf')}
+    @font-face{font-family:'Prostranstvo Decor';src:url('../dist/ProstranstvoDecor-Regular.ttf')}
+    .sans{font-family:'Prostranstvo Sans','DejaVu Sans',Arial,sans-serif}
+    .serif{font-family:'Prostranstvo Serif','DejaVu Serif',Georgia,serif}
+    .decor{font-family:'Prostranstvo Decor','Prostranstvo Serif',Georgia,serif}
+    .kicker{font:700 14px 'DejaVu Sans',Arial,sans-serif;letter-spacing:2.2px}
+    .title{font:400 48px 'Prostranstvo Serif','DejaVu Serif',Georgia,serif}
+    .h2{font:400 30px 'Prostranstvo Serif','DejaVu Serif',Georgia,serif}
+    .body{font:400 18px 'Prostranstvo Sans','DejaVu Sans',Arial,sans-serif}
+    .small{font:400 14px 'Prostranstvo Sans','DejaVu Sans',Arial,sans-serif}
+    .label{font:700 13px 'DejaVu Sans',Arial,sans-serif;letter-spacing:1.2px}
+    .num{font:400 92px 'Prostranstvo Serif','DejaVu Serif',Georgia,serif}
+  </style>
+
+  <rect x="0" y="0" width="1440" height="1024" rx="0" fill="#F4F0E8" stroke="none" stroke-width="1"/>
+  
+    <text x="72" y="58" class="kicker" fill="#B65E43" text-anchor="start">07  /  ФИРМЕННЫЕ ЦВЕТА</text><line x1="72" y1="78" x2="1368" y2="78" stroke="#E7C3B7" stroke-width="2"/>
+    <text x="72" y="163" class="title" fill="#242422" text-anchor="start">Тепло материала и спокойствие жилого пространства</text>
+    <text x="76" y="216" class="body" fill="#71816D" text-anchor="start">Основные: терракота, шалфейный, кремовый и графитовый. Светлые оттенки — только для фонов.</text>
+    <rect x="72" y="260" width="400" height="280" rx="18" fill="#F4F0E8" stroke="none" stroke-width="1"/><text x="98" y="304" class="label" fill="#242422" text-anchor="start">ТЁПЛЫЙ КРЕМОВЫЙ</text><text x="98" y="440" class="h2" fill="#242422" text-anchor="start">#F4F0E8</text><text x="98" y="484" class="small" fill="#242422" text-anchor="start">RGB  244 240 232</text><text x="98" y="512" class="small" fill="#242422" text-anchor="start">CMYK  0 2 5 4</text><rect x="504" y="260" width="400" height="280" rx="18" fill="#242422" stroke="none" stroke-width="1"/><text x="530" y="304" class="label" fill="#FFFFFF" text-anchor="start">ГРАФИТОВЫЙ</text><text x="530" y="440" class="h2" fill="#FFFFFF" text-anchor="start">#242422</text><text x="530" y="484" class="small" fill="#FFFFFF" text-anchor="start">RGB  36 36 34</text><text x="530" y="512" class="small" fill="#FFFFFF" text-anchor="start">CMYK  0 0 6 86</text><rect x="936" y="260" width="400" height="280" rx="18" fill="#B65E43" stroke="none" stroke-width="1"/><text x="962" y="304" class="label" fill="#FFFFFF" text-anchor="start">ТЕРРАКОТА</text><text x="962" y="440" class="h2" fill="#FFFFFF" text-anchor="start">#B65E43</text><text x="962" y="484" class="small" fill="#FFFFFF" text-anchor="start">RGB  182 94 67</text><text x="962" y="512" class="small" fill="#FFFFFF" text-anchor="start">CMYK  0 48 63 29</text><rect x="72" y="585" width="400" height="280" rx="18" fill="#71816D" stroke="none" stroke-width="1"/><text x="98" y="629" class="label" fill="#FFFFFF" text-anchor="start">ШАЛФЕЙНЫЙ</text><text x="98" y="765" class="h2" fill="#FFFFFF" text-anchor="start">#71816D</text><text x="98" y="809" class="small" fill="#FFFFFF" text-anchor="start">RGB  113 129 109</text><text x="98" y="837" class="small" fill="#FFFFFF" text-anchor="start">CMYK  12 0 16 49</text><rect x="504" y="585" width="400" height="280" rx="18" fill="#E7C3B7" stroke="none" stroke-width="1"/><text x="530" y="629" class="label" fill="#242422" text-anchor="start">СВЕТЛАЯ ГЛИНА</text><text x="530" y="765" class="h2" fill="#242422" text-anchor="start">#E7C3B7</text><text x="530" y="809" class="small" fill="#242422" text-anchor="start">RGB  231 195 183</text><text x="530" y="837" class="small" fill="#242422" text-anchor="start">CMYK  0 16 21 9</text><rect x="936" y="585" width="400" height="280" rx="18" fill="#DDE4D8" stroke="none" stroke-width="1"/><text x="962" y="629" class="label" fill="#242422" text-anchor="start">СВЕТЛЫЙ ШАЛФЕЙ</text><text x="962" y="765" class="h2" fill="#242422" text-anchor="start">#DDE4D8</text><text x="962" y="809" class="small" fill="#242422" text-anchor="start">RGB  221 228 216</text><text x="962" y="837" class="small" fill="#242422" text-anchor="start">CMYK  3 0 5 11</text>
+    <text x="72" y="982" class="label" fill="#71816D" text-anchor="start">ПРОСТРАНСТВО  •  БРЕНДБУК</text><text x="1368" y="982" class="label" fill="#71816D" text-anchor="end">08</text>
+    
+</svg>

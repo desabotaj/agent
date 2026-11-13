@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1024" viewBox="0 0 1440 1024">
+
+  <style>
+    @font-face{font-family:'Prostranstvo Sans';src:url('../dist/ProstranstvoSans-Regular.ttf')}
+    @font-face{font-family:'Prostranstvo Serif';src:url('../dist/ProstranstvoSerif-Regular.ttf')}
+    @font-face{font-family:'Prostranstvo Decor';src:url('../dist/ProstranstvoDecor-Regular.ttf')}
+    .sans{font-family:'Prostranstvo Sans','DejaVu Sans',Arial,sans-serif}
+    .serif{font-family:'Prostranstvo Serif','DejaVu Serif',Georgia,serif}
+    .decor{font-family:'Prostranstvo Decor','Prostranstvo Serif',Georgia,serif}
+    .kicker{font:700 14px 'DejaVu Sans',Arial,sans-serif;letter-spacing:2.2px}
+    .title{font:400 48px 'Prostranstvo Serif','DejaVu Serif',Georgia,serif}
+    .h2{font:400 30px 'Prostranstvo Serif','DejaVu Serif',Georgia,serif}
+    .body{font:400 18px 'Prostranstvo Sans','DejaVu Sans',Arial,sans-serif}
+    .small{font:400 14px 'Prostranstvo Sans','DejaVu Sans',Arial,sans-serif}
+    .label{font:700 13px 'DejaVu Sans',Arial,sans-serif;letter-spacing:1.2px}
+    .num{font:400 92px 'Prostranstvo Serif','DejaVu Serif',Georgia,serif}
+  </style>
+
+  <rect x="0" y="0" width="1440" height="1024" rx="0" fill="#F4F0E8" stroke="none" stroke-width="1"/>
+  
+    
+    <g transform="translate(85 91) scale(1.25)">
+      <path d="M0 170 L0 0 L170 0" fill="none" stroke="#B65E43" stroke-width="18"
+        stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="88" cy="88" r="37" fill="#71816D"/>
+    </g>
+    <text x="85" y="395" class="kicker" fill="#B65E43" text-anchor="start">БРЕНДБУК / 2026</text>
+    <text x="80" y="530" class="decor" fill="#242422" font-size="112px">ПРОСТРАНСТВО</text>
+    <text x="88" y="593" class="label" fill="#71816D" text-anchor="start">ДИЗАЙН ИНТЕРЬЕРА С НУЛЯ</text>
+    <line x1="88" y1="634" x2="1015" y2="634" stroke="#B65E43" stroke-width="5"/>
+    <text x="88" y="700" class="h2" fill="#242422"><tspan x="88" dy="0">Мобильное приложение для тех, кто впервые</tspan><tspan x="88" dy="42">создаёт интерьер самостоятельно.</tspan></text>
+    <text x="88" y="930" class="label" fill="#71816D" text-anchor="start">ВАРИАНТ 1  •  САМОСТОЯТЕЛЬНАЯ РАБОТА</text>
+    <circle cx="1270" cy="148" r="150" fill="#B65E43"/>
+    <circle cx="1260" cy="894" r="92" fill="#71816D"/>
+    
+</svg>
